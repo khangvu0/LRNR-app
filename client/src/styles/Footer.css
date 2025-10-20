@@ -1,0 +1,41 @@
+.footer {
+    width: 100%;
+    background-color: var(--main-color);
+    padding: 1.25rem 0;
+}
+
+.footer-container {
+    margin: 0 1.5rem;
+}
+
+.footer-title {
+    margin-bottom: 0.25rem;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+}
+
+.footer-title,
+.footer-subtitle {
+    color: white;
+}
+
+.footer-subtitle {
+    font-size: 0.875rem;
+}
+
+/*-------------------- Media Queries --------------------*/
+/* For tablet */
+@media screen and (min-width: 768px) {
+    .footer {
+        padding: 2rem 0;
+    }
+
+    .footer-title {
+        font-size: 1.4rem;
+    }
+
+    .footer-subtitle {
+        font-size: 1.1rem;
+    }
+}
