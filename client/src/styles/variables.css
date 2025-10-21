@@ -3,12 +3,12 @@
 
 /*-------------------- Color Variables --------------------*/
 :root {
-    --main-color: #253746;
-    --secondary-color: #38546b;
+    --blue-color: #4a92ed;
+    --dark-blue-color: #478de3;
+    --green-color: #449389;
     --text-color: #333333;
     --body-color: #ffffff;
-    --card-color: #f5f3ef;
-    --footer-color: #f6f6f6;
+    --off-white-color: #dbdbdb;
 
     --font-logo: 'Inter', 'Helvetica Neue', 'Arial', sans-serif;
     --font-title: 'garamond-premier-pro', 'Poppins', sans-serif;
