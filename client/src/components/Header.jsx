@@ -6,7 +6,7 @@ export default function Header() {
         <header className="header" id="header">
             <nav className="nav">
                 <Link to="/" className="nav_logo">
-                    LRNR
+                    lrnr
                 </Link>
 
                 <div className="nav_menu" id="nav-menu">
@@ -25,7 +25,7 @@ export default function Header() {
 
                         <li className="nav_item">
                             <Link to="/quiz" className="nav_link">
-                                Quiz
+                                Quiz Generation
                             </Link>
                         </li>
                     </ul>
