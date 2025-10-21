@@ -1,0 +1,21 @@
+.btn {
+    background-color: var(--green-color);
+    color: white;
+    padding: 16px 20px;
+    margin: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-family: sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: var(--dark-green-color);
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+}
+
+.btn:active {
+    background-color: #004085;
+}
