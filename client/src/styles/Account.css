@@ -1,0 +1,75 @@
+.account-page {
+    margin-bottom: 4rem;
+}
+
+.title {
+    margin: 0.5rem 1rem 1.5rem;
+    color: var(--green-color);
+}
+
+.account-container {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    gap: 2.5rem;
+}
+
+.streak,
+.quizzes,
+.account {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    flex: 1;
+}
+
+.streak img,
+.quizzes img,
+.account img {
+    width: 2.5rem;
+    height: auto;
+}
+
+.streak-description,
+.quizzes-description,
+.account-description {
+    text-align: center;
+}
+
+/*-------------------- Media Queries --------------------*/
+/* For tablet */
+@media screen and (min-width: 768px) {
+    .account-container {
+        flex-direction: row;
+        margin: 1rem;
+        min-height: 60vh;
+    }
+
+    .streak,
+    .quizzes,
+    .account {
+        padding-top: 6rem;
+    }
+}
+
+/* For large devices */
+@media screen and (min-width: 1024px) {
+    .title {
+        font-size: 2.5rem;
+        margin-top: 1rem;
+    }
+
+    .streak,
+    .quizzes,
+    .account {
+        padding-top: 7rem;
+    }
+
+    .streak img,
+    .quizzes img,
+    .account img {
+        width: 3rem;
+        height: auto;
+    }
+}
