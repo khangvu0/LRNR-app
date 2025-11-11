@@ -1,6 +1,5 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import '../styles/QuizOptions.css';
 import '../components/Button.jsx'
 
 export default function QuizOptions() {
