@@ -5,9 +5,9 @@
     margin: 50px auto;
 }
 
-h2 {
+/* h2 {
     margin-bottom: 5px;
-}
+} */
 
 .main-content{
     margin-bottom: 25px;
@@ -26,6 +26,7 @@ h2 {
     margin-bottom: 30px;
     padding-bottom: 5px;
     border-bottom: 1px solid #ccc; 
+    width: 100%;
 }
 
 /* Styling the Labels (Topic, Expertise, etc.) */
@@ -39,6 +40,7 @@ h2 {
 
 /* Styling the Dropdown Select boxes */
 .dropdown {
+    width: 100%;
     border: none;
     background: transparent;
     font-size: 1em;
