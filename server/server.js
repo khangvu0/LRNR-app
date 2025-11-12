@@ -14,11 +14,7 @@ const PORT = process.env.PORT || 5000;
 const openai = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
 
 app.use(express.json());
-app.use(
-    cors({
-        origin: 'https://lrnr-app-85pj.onrender.com/',
-    })
-);
+app.use(cors());
 
 // Generate questions endpoint
 app.post('/api/questions', async (req, res) => {
