@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import '../styles/Quiz.css';
 import QuizOptions from '../components/QuizOptions';
+import '../styles/Quiz.css';
 
 export default function Quiz() {
     return (

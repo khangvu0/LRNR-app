@@ -1,7 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import '../components/Button.jsx';
 import '../styles/QuizOptions.css';
+import '../components/Button.jsx';
 
 export default function QuizOptions() {
     // const { startQuiz, isLoading } = useQuiz(); 
